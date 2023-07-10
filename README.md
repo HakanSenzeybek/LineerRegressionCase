@@ -18,6 +18,7 @@ The results obtained from the different approaches are as follows:
 Linear Regression with NumPy:
 
 Predictions of sales: [ 9.40942557 12.7369904 20.34285287]
+
 Linear Regression with Scikit-Learn:
 
 Predictions of sales: [ 9.40942557 12.7369904 20.34285287]
@@ -25,8 +26,10 @@ Predictions of sales: [ 9.40942557 12.7369904 20.34285287]
 Linear Regression using Gradient Descent:
 
 Predictions of sales (Scikit-Learn): [ 9.40942557 12.7369904 20.34285287]
+
 Predictions of sales (Gradient Descent): [ 9.40942557 12.7369904 20.34285287]
-5. Analysis
+
+# 5. Analysis
 The linear regression models built using NumPy, Scikit-Learn, and gradient descent all provide similar predictions for sales based on TV marketing expenses. The predicted sales amounts increase as the TV marketing expenses increase, indicating a positive linear relationship between these variables.
 The models' coefficients, performance metrics, and convergence can be further analyzed to assess the accuracy and reliability of the predictions. It is recommended to evaluate additional metrics such as mean squared error or R-squared to quantify the models' performance.
 Furthermore, visualizing the regression line and the predicted points can provide insights into the quality of the model's fit to the data.
