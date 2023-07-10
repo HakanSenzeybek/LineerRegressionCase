@@ -1,15 +1,5 @@
-# LineerRegressionCase
-In this project, I will build a simple linear regression model to predict sales based on TV marketing expenses. I will investigate three different approaches to this problem. I will use NumPy and Scikit-Learn linear regression models, as well as construct and optimize the sum of squares cost function with gradient descent from scratch.
-
 # Linear Regression for Sales Prediction
 This project aims to build a simple linear regression model to predict sales based on TV marketing expenses. Three different approaches are investigated: using NumPy and Scikit-Learn linear regression models, as well as constructing and optimizing the sum of squares cost function with gradient descent from scratch.
-
-# Table of Contents
-# Open the Dataset and State the Problem
-# Linear Regression in Python with NumPy and Scikit-Learn
-# Linear Regression using Gradient Descent
-# Results
-# Analysis
 
 # 1. Open the Dataset and State the Problem
 The dataset used in this project is stored in the file data/tvmarketing.csv. It contains two fields: TV marketing expenses (TV) and sales amount (Sales). The goal is to build a linear regression model that can predict sales based on TV marketing expenses.
